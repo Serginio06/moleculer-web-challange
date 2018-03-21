@@ -1,7 +1,7 @@
 <h1> Simple calculator App based on microservices architecture using Moleculer</h1> 
 
 ## Minimum Requirements
-### <a href='https://nodejs.org/en/'>[Node 9](https://nodejs.org/en/)</a>
+### <a href='https://nodejs.org/en/'>[Node 8](https://nodejs.org/en/)</a>
     We use Node 8.9.4 to power the API server in development and production.
     Use `nvm` if you require multiple versions of node installed on your local machine.
 ### <a href='https://moleculer.services/0.12/docs/'>[Moleculer](https://moleculer.services/0.12/docs/)</a>
