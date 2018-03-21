@@ -8,6 +8,7 @@
     "start-client": "moleculer-runner --hot client.js",
     "start": "moleculer-runner",
     "start-services": "moleculer-runner --instances 1 --repl services",
+    "start-multiservices": "moleculer-runner --instances 4 --repl services",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Serhii Ivanchenko",
