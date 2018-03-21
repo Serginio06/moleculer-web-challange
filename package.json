@@ -1,0 +1,23 @@
+{
+  "name": "moleculer-test",
+  "version": "1.0.0",
+  "description": "test moleculer package",
+  "main": "index.js",
+  "scripts": {
+    "dev": "moleculer-runner --repl --hot services",
+    "start-client": "moleculer-runner --hot client.js",
+    "start": "moleculer-runner",
+    "start-services": "moleculer-runner --instances 1 --repl services",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Serhii Ivanchenko",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "lodash": "^4.17.5",
+    "moleculer": "^0.12.1",
+    "moleculer-repl": "^0.4.0",
+    "moleculer-web": "^0.6.4",
+    "nats": "^0.8.2"
+  }
+}
